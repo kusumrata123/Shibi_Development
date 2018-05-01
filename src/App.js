@@ -6,8 +6,8 @@ import Sidebar from './common/Layouts/Sidebar/';
 import Breadcrumb from './common/Layouts/Breadcrumb/';
 import Aside from './common/Layouts/Aside/';
 import Footer from './common/Layouts/Footer/';
-
-import Dashboard from './pages/Dashboard/dashboard.js';
+  
+import Dashboard from './pages/Dashboard/Dashboard.js';
 import Product from './pages/ManageProduct/ProductDetails.js';
 
 class Full extends Component {

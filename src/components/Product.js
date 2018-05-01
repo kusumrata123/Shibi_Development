@@ -23,26 +23,30 @@ class Product extends Component {
       <div className="animated fadeIn">
         <div className="row">
             <div className="col-md-12">
+            <div className="product">
                 <img id="productImage" className="img img-responsive" src={products[0].image.thumbnail1} />
-                <div className="col-md-10 col-md-offset-1">
+                <div>
                     <b>
                         <h4>{products[0].name}</h4>
                     </b>
-                    <div className="productDes">{products[0].description}</div>
                     <div>
-                        {products[0].price}
+                     <div className="productDes">{products[0].description}</div>   
                     </div>
-                    <div>
-                        Chutney, Sambar
-                    </div>
+                 </div>
+            </div>
+
+                <div>
+                         {products[0].price}
+                </div>                    
+                <div>Chutney, Sambar
+                </div>
                     {
                         products[0].attributes.Ingredients && products[0].attributes.Ingredients.map((item, key)=>{
                             <div>{item}</div>
                         })
                     }
-                </div>
-            </div>
         </div>
+      </div>
       </div>
     )
   }

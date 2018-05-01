@@ -1,1 +1,1 @@
-export const API_BASE_URL_CUSTOM = 'http://35.224.233.158/chimesbot/b_getProduct';
+export const API_BASE_URL_CUSTOM = 'http://23.251.156.221/chimesbot/b_getProduct';
